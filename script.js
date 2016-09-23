@@ -28,7 +28,10 @@ function wordReverse (words){
   var wordssplit = words.split(" ");
   var x = '';
   for (var i= wordssplit.length - 1; i >= 0; i--)
-  console.log(x = x + wordssplit[i] + " ");
+    x = x + wordssplit[i] + " ";
+    if (i= wordssplit.length - 1){
+      console.log (x);
+    }
 }
 
 wordReverse(sentence);
